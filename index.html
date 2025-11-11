@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stinger Parts Search</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>Search</text></svg>">
+  <style>
+    :root {
+      --bg: #f8f9fc;
+      --text: #1a1a2e;
+      --accent: #0066cc;
+      --card: #ffffff;
+      --border: #e0e6ed;
+      --shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f1a;
+        --text: #e0e0ff;
+        --accent: #4d9fff;
+        --card: #1a1a2e;
+        --border: #33334d;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      color: #777;
+      font-size: 0.95rem;
+    }
+    .search-box {
+      position: relative;
+      margin-bottom: 1.5rem;
+    }
+    #search {
+      width: 100%;
+      padding: 1rem 1rem 1rem 3rem;
+      font-size: 1.1rem;
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      background: var(--bg);
+      color: var(--text);
+      transition: all 0.3s;
+    }
+    #search:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.15);
+    }
+    .search-icon {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #aaa;
+      font-size: 1.2rem;
+    }
+    #results {
+      max-height: 60vh;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--bg);
+      display: none;
+    }
+    .result-item {
+      padding: 1rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .result-item:hover {
+      background: rgba(0, 102, 204, 0.05);
+    }
+    .result-item:last-child {
+      border-bottom: none;
+    }
+    .part-number {
+      font-weight: 600;
+      color: var(--accent);
+      font-family: 'Courier New', monospace;
+    }
+    .part-title {
+      color: #666;
+      font-size: 0.9rem;
+      margin-left: 0.5rem;
+    }
+    .no-results {
+      padding: 2rem;
+      text-align: center;
+      color: #999;
+      font-style: italic;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #888;
+      font-size: 0.85rem;
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .loading {
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .container { padding: 1.5rem; }
+      h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Stinger Parts Search</h1>
+    </header>
+
+    <div class="search-box">
+      <span class="search-icon"></span>
+      <input type="text" id="search" autocomplete="off" />
+    </div>
+
+    <div id="results"></div>
+    <div id="loading" class="loading">Loading parts database...</div>
+    
+  </div>
+
+  <script>
+    let allParts = [];
+    const resultsDiv = document.getElementById('results');
+    const loading = document.getElementById('loading');
+    const searchInput = document.getElementById('search');
+
+    // Load parts.json
+    fetch('parts.json')
+      .then(r => {
+        if (!r.ok) throw new Error('Failed to load parts.json');
+        return r.json();
+      })
+      .then(data => {
+        allParts = data;
+        loading.style.display = 'none';
+        searchInput.placeholder = `Search ${allParts.length} parts...`;
+        renderResults(allParts);
+      })
+      .catch(err => {
+        loading.innerHTML = `<p style="color:red;">Error: ${err.message}</p>`;
+        console.error(err);
+      });
+
+    function renderResults(parts) {
+      resultsDiv.innerHTML = '';
+      if (parts.length === 0) {
+        resultsDiv.innerHTML = '<div class="no-results">No parts found.</div>';
+        resultsDiv.style.display = 'block';
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      parts.forEach(p => {
+        const div = document.createElement('div');
+        div.className = 'result-item';
+        div.innerHTML = `
+          <span class="part-number">${p.part}</span>
+          <span class="part-title">— ${p.title}</span>
+        `;
+        div.onclick = () => window.open(p.url, '_blank');
+        fragment.appendChild(div);
+      });
+      resultsDiv.appendChild(fragment);
+      resultsDiv.style.display = 'block';
+    }
+
+    searchInput.addEventListener('input', () => {
+      const term = searchInput.value.trim().toLowerCase();
+      if (!term) {
+        renderResults(allParts);
+        return;
+      }
+      const filtered = allParts.filter(p => 
+        p.part.toLowerCase().includes(term)
+      );
+      renderResults(filtered);
+    });
+
+    // Hide results when clicking outside
+    document.addEventListener('click', e => {
+      if (!searchInput.contains(e.target) && !resultsDiv.contains(e.target)) {
+        resultsDiv.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
