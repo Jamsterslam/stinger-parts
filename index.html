@@ -190,7 +190,7 @@
     const searchInput = document.getElementById('search');
 
     // Load parts.json
-    fetch('parts_combined.json')
+    fetch('parts.json')
       .then(r => {
         if (!r.ok) throw new Error('Failed to load parts.json');
         return r.json();
