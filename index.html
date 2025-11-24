@@ -92,24 +92,49 @@
     .result-item {
       padding: 1rem;
       border-bottom: 1px solid var(--border);
-      cursor: pointer;
       transition: background 0.2s;
-    }
-    .result-item:hover {
-      background: rgba(0, 102, 204, 0.05);
     }
     .result-item:last-child {
       border-bottom: none;
+    }
+    .part-header {
+      margin-bottom: 0.5rem;
     }
     .part-number {
       font-weight: 600;
       color: var(--accent);
       font-family: 'Courier New', monospace;
+      font-size: 1rem;
     }
-    .part-title {
-      color: #666;
-      font-size: 0.9rem;
+    .part-alias {
+      color: #888;
+      font-size: 0.85rem;
+      font-family: 'Courier New', monospace;
       margin-left: 0.5rem;
+    }
+    .titles-list {
+      margin-left: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    .title-link {
+      display: block;
+      padding: 0.4rem 0.6rem;
+      color: var(--text);
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+      margin: 0.2rem 0;
+    }
+    .title-link:hover {
+      background: rgba(0, 102, 204, 0.1);
+      color: var(--accent);
+      padding-left: 1rem;
+    }
+    .title-link::before {
+      content: "→ ";
+      opacity: 0.5;
+      margin-right: 0.3rem;
     }
     .no-results {
       padding: 2rem;
@@ -165,7 +190,7 @@
     const searchInput = document.getElementById('search');
 
     // Load parts.json
-    fetch('parts.json')
+    fetch('parts_combined.json')
       .then(r => {
         if (!r.ok) throw new Error('Failed to load parts.json');
         return r.json();
@@ -193,11 +218,24 @@
       parts.forEach(p => {
         const div = document.createElement('div');
         div.className = 'result-item';
-        div.innerHTML = `
-          <span class="part-number">${p.part}</span>
-          <span class="part-title">— ${p.title}</span>
-        `;
-        div.onclick = () => window.open(p.url, '_blank');
+        
+        // Create header with part number and alias
+        let headerHTML = `<div class="part-header">
+          <span class="part-number">${p.part}</span>`;
+        
+        if (p.alias) {
+          headerHTML += `<span class="part-alias">(alias: ${p.alias})</span>`;
+        }
+        headerHTML += `</div>`;
+        
+        // Create titles list with clickable links
+        let titlesHTML = '<div class="titles-list">';
+        p.titles.forEach((title, index) => {
+          titlesHTML += `<a href="${p.urls[index]}" target="_blank" class="title-link">${title}</a>`;
+        });
+        titlesHTML += '</div>';
+        
+        div.innerHTML = headerHTML + titlesHTML;
         fragment.appendChild(div);
       });
       resultsDiv.appendChild(fragment);
@@ -211,7 +249,8 @@
         return;
       }
       const filtered = allParts.filter(p => 
-        p.part.toLowerCase().includes(term)
+        p.part.toLowerCase().includes(term) ||
+        (p.alias && p.alias.toLowerCase().includes(term))
       );
       renderResults(filtered);
     });
