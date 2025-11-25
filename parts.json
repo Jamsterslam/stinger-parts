@@ -665,6 +665,15 @@
     ]
   },
   {
+    "part": "10-1028",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
     "part": "10-1193",
     "titles": [
       "Servo ASM – Gateway Applicator",
@@ -937,6 +946,17 @@
     ]
   },
   {
+    "part": "10-1505",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
     "part": "10-1543",
     "titles": [
       "Handle 2 – Super Seeder"
@@ -1204,7 +1224,8 @@
       "Rear Platform – GT-30 – Gen 1",
       "Quad Aer 3000 – Gen 3 – Frame ASM",
       "Quad Aer 3000 – Gen 2 – Frame ASM",
-      "Frame ASM – QA3600 – Gen 2"
+      "Frame ASM – QA3600 – Gen 2",
+      "Hitch Carrier – Carrier Ramp"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/frame-asm-3/",
@@ -1215,7 +1236,8 @@
       "https://www.stingerequipment.com/schematics/rear-platform-gt-30-gen1/",
       "https://www.stingerequipment.com/schematics/frame-asm-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/frame-asm-qa3000-gen2/",
-      "https://www.stingerequipment.com/schematics/frame-asm-qa3600-gen-2/"
+      "https://www.stingerequipment.com/schematics/frame-asm-qa3600-gen-2/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
     ]
   },
   {
@@ -1732,6 +1754,15 @@
     ]
   },
   {
+    "part": "10-24-flange-nylock-nut",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
     "part": "10-2403",
     "titles": [
       "GT-30 – Gen 1 – Control Handles",
@@ -1823,6 +1854,15 @@
     ]
   },
   {
+    "part": "10-2605",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
     "part": "10-2694",
     "titles": [
       "Engine ASM – QA3600 – Gen 1",
@@ -1846,6 +1886,28 @@
       "https://www.stingerequipment.com/schematics/engine-asm-gt-30-gen1/",
       "https://www.stingerequipment.com/schematics/engine-asm-4/",
       "https://www.stingerequipment.com/schematics/engine-asm-qa3600-gen-2/"
+    ]
+  },
+  {
+    "part": "10-2715",
+    "titles": [
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "10-2716",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
     ]
   },
   {
@@ -1909,6 +1971,19 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/frame-asm-dual-aer-2475-gen-2/"
+    ]
+  },
+  {
+    "part": "10-2743",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
     ]
   },
   {
@@ -2037,6 +2112,68 @@
     ]
   },
   {
+    "part": "10-3036",
+    "titles": [
+      "Seed Box ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "10-3041",
+    "titles": [
+      "Seed Chute ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "10-3042",
+    "titles": [
+      "Seed Chute ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "10-3043",
+    "titles": [
+      "Controller ASM – Seed Box 36 – Gen 1",
+      "Control ASMB – Seed Box 30",
+      "Controller ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "10-3044",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "10-3052",
+    "titles": [
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
     "part": "10-3162",
     "titles": [
       "Bake ASM – Gateway Applicator",
@@ -2131,6 +2268,66 @@
     ]
   },
   {
+    "part": "10-3435",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "10-3435-2",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "10-3448",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "10-3456",
+    "titles": [
+      "Chute ASM – Seed Box 36 – Gen 2",
+      "Chute ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "10-3457",
+    "titles": [
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Chute ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "10-3470",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
     "part": "10-3503",
     "titles": [
       "Quad Aer 3000 – Gen 3 – Trail Arm ASM",
@@ -2170,6 +2367,15 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/handle-asm/"
+    ]
+  },
+  {
+    "part": "10-3599",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -2927,6 +3133,15 @@
     ]
   },
   {
+    "part": "10-4952",
+    "titles": [
+      "Hitch Carrier – Carrier Bumper"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
+    ]
+  },
+  {
     "part": "10-4989",
     "titles": [
       "Tank ASM – Gateway Applicator"
@@ -2942,6 +3157,111 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/spray-asm/"
+    ]
+  },
+  {
+    "part": "10-5032",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
+    ]
+  },
+  {
+    "part": "10-5081",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "10-5104",
+    "titles": [
+      "Single Hitch Carrier – Carrier Single Base",
+      "Dual Hitch Carrier – Carrier Dual Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-single-base/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
+    ]
+  },
+  {
+    "part": "10-5167",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "10-5168",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "10-5169",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "10-5177",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "10-5191",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
+    "part": "10-5193",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
+    "part": "10-5197",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "10-5218",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
     ]
   },
   {
@@ -3337,6 +3657,42 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/belt-control-rod-dual-aer-2475-gen-2/"
+    ]
+  },
+  {
+    "part": "20-1066",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
+    "part": "20-1067",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
+    "part": "20-1068",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
+    "part": "20-1069",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -3932,6 +4288,15 @@
     ]
   },
   {
+    "part": "20-2604",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
     "part": "20-2634",
     "titles": [
       "Quad Aer 3000 – Gen 1 – Frame ASM",
@@ -4025,6 +4390,15 @@
     ]
   },
   {
+    "part": "20-2713",
+    "titles": [
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
     "part": "20-2788",
     "titles": [
       "Frame ASM – QA3600 – Gen 1",
@@ -4084,6 +4458,19 @@
     ]
   },
   {
+    "part": "20-2851",
+    "titles": [
+      "Controller ASM – Seed Box 36 – Gen 1",
+      "Control ASMB – Seed Box 30",
+      "Controller ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
     "part": "20-2884",
     "titles": [
       "Handle ASM – Gateway Applicator",
@@ -4126,6 +4513,15 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/gateway-engine-asm/"
+    ]
+  },
+  {
+    "part": "20-3034",
+    "titles": [
+      "Seed Box ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/"
     ]
   },
   {
@@ -4192,6 +4588,19 @@
     "urls": [
       "https://www.stingerequipment.com/schematics/brake-asm/",
       "https://www.stingerequipment.com/schematics/gateway-brake-asm/"
+    ]
+  },
+  {
+    "part": "20-3279",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
     ]
   },
   {
@@ -4273,6 +4682,15 @@
     ]
   },
   {
+    "part": "20-3365",
+    "titles": [
+      "Seed Chute ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/"
+    ]
+  },
+  {
     "part": "20-3412",
     "titles": [
       "Brake Arm – QA3600 – Gen 3",
@@ -4283,6 +4701,37 @@
       "https://www.stingerequipment.com/schematics/brake-arm/",
       "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-2/"
+    ]
+  },
+  {
+    "part": "20-3440",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "20-3446",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "20-3453",
+    "titles": [
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Chute ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -4353,6 +4802,15 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/fx850-engine/"
+    ]
+  },
+  {
+    "part": "20-3609",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -4617,6 +5075,15 @@
     ]
   },
   {
+    "part": "20-4681",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
     "part": "20-4862",
     "titles": [
       "Frame ASM – Gateway Applicator"
@@ -4653,14 +5120,60 @@
     ]
   },
   {
+    "part": "20-5084",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "20-5121",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
+    "part": "20-5153",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
+    "part": "20-5170",
+    "titles": [
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
     "part": "30-0001",
     "titles": [
       "Transmission ASM – Super Seeder",
-      "Drive ASM – EZAER-19"
+      "Drive ASM – EZAER-19",
+      "SeedBox ASM – Seed Box 36 – Gen 2",
+      "SeedBox ASM – Seed Box 36 – Gen 1",
+      "Seed Box ASMB – Seed Box 30"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/transmission-asm-ss/",
-      "https://www.stingerequipment.com/schematics/drive-asm/"
+      "https://www.stingerequipment.com/schematics/drive-asm/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/"
     ]
   },
   {
@@ -5018,7 +5531,19 @@
       "Quad Aer 3000 – Gen 3 – Control Tower",
       "Quad Aer 3000 – Gen 3 – Right Tine Drive",
       "Hydraulic Left Side Drive – QA3600 – Gen 1",
-      "Quad Aer 3000 – Gen 3 – Frame ASM"
+      "Quad Aer 3000 – Gen 3 – Frame ASM",
+      "Mixer ASMB – Seed Box 30",
+      "Controller ASM – Seed Box 36 – Gen 1",
+      "Hitch Carrier – Carrier Bumper",
+      "Seed Chute ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Sulky Parts – Stinger Equipment",
+      "Hitch Carrier – Carrier Ramp",
+      "Control ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Chute ASM – Seed Box 36 – Gen 2",
+      "Controller ASM – Seed Box 36 – Gen 2"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/left-tine-drive-qa3000-gen3/",
@@ -5144,7 +5669,19 @@
       "https://www.stingerequipment.com/schematics/control-tower-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/right-tine-drive-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/hydraulic-left-side-drive-qa3600-gen-1/",
-      "https://www.stingerequipment.com/schematics/frame-asm-qa3000-gen3/"
+      "https://www.stingerequipment.com/schematics/frame-asm-qa3000-gen3/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/carrier-bumper/",
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/sulky-parts/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/",
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -5189,7 +5726,10 @@
       "Quad Aer 3000 – Gen 2 – Hydraulic Tank",
       "Hydraulic Tank Low Pressure Hoses – QA3600 – Gen 1",
       "Hydraulic Lift Cylinder – QA3600 – Gen 2",
-      "Handle ASM – EZAER-19"
+      "Handle ASM – EZAER-19",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASM – Seed Box 36 – Gen 2"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/hydraulic-tank-low-pressure-hoses-qa3600-gen-2/",
@@ -5207,7 +5747,10 @@
       "https://www.stingerequipment.com/schematics/hydraulic-tank-qa3000-gen-2/",
       "https://www.stingerequipment.com/schematics/hydraulic-tank-low-pressure-hoses-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/hydraulic-lift-cylinder-qa3600-gen-2/",
-      "https://www.stingerequipment.com/schematics/handle-asm/"
+      "https://www.stingerequipment.com/schematics/handle-asm/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -5285,12 +5828,17 @@
   {
     "part": "30-0069",
     "titles": [
-      "Tower Control – QA3600 – Gen 3"
+      "Tower Control – QA3600 – Gen 3",
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/tower-control/"
-    ],
-    "alias": "30-3341"
+      "https://www.stingerequipment.com/schematics/tower-control/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
   },
   {
     "part": "30-0071",
@@ -5399,7 +5947,8 @@
       "Quad Aer 3000 – Gen 4 – Control Panel",
       "Quad Aer 3000 – Gen 1 – Control Panel",
       "Controls – Go Barrow",
-      "Control Panel – QA3600 – Gen 2"
+      "Control Panel – QA3600 – Gen 2",
+      "Mixer ASMB – Seed Box 30"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/handle-asm-dual-aer-2475-gen-2/",
@@ -5413,16 +5962,31 @@
       "https://www.stingerequipment.com/schematics/control-panel-2/",
       "https://www.stingerequipment.com/schematics/control-panel-qa3000-gen1/",
       "https://www.stingerequipment.com/schematics/controls-go-barrow/",
-      "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-2/"
+      "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
     ]
   },
   {
     "part": "30-0105",
     "titles": [
-      "Engine – Go Barrow"
+      "Engine – Go Barrow",
+      "Single Hitch Carrier – Carrier Single Base",
+      "Seed Chute ASMB – Seed Box 30",
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Chute ASM – Seed Box 36 – Gen 2",
+      "Hitch Carrier – Carrier Ramp",
+      "Sulky Parts – Stinger Equipment",
+      "Dual Hitch Carrier – Carrier Dual Base"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/engine-go-barrow/"
+      "https://www.stingerequipment.com/schematics/engine-go-barrow/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/",
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/",
+      "https://www.stingerequipment.com/schematics/sulky-parts/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
     ]
   },
   {
@@ -5466,8 +6030,7 @@
       "https://www.stingerequipment.com/schematics/tine-drive-left-side-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/tine-drive-right-side/",
       "https://www.stingerequipment.com/schematics/tine-drive-left-side/"
-    ],
-    "alias": "30-1652"
+    ]
   },
   {
     "part": "30-0110",
@@ -5531,7 +6094,8 @@
       "Trail ARM ASM – QA3600 – Gen 1",
       "Right Hydraulic Side – QA3600 – Gen 3",
       "Drive Belt – QA3600 – Gen 3",
-      "Wheel – Go Barrow"
+      "Wheel – Go Barrow",
+      "Single Hitch Carrier – Carrier Single Base"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/handle-asm-dual-aer-2475-gen-2/",
@@ -5556,7 +6120,8 @@
       "https://www.stingerequipment.com/schematics/trail-arm-asm-2/",
       "https://www.stingerequipment.com/schematics/right-hydraulic-side/",
       "https://www.stingerequipment.com/schematics/drive-belt/",
-      "https://www.stingerequipment.com/schematics/wheel-go-barrow/"
+      "https://www.stingerequipment.com/schematics/wheel-go-barrow/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
     ]
   },
   {
@@ -5740,7 +6305,9 @@
       "Cutter Belt ASM – Super Seeder",
       "GT-30 Gen 2 Engine ASM",
       "Seed Gate ASM – Super Seeder",
-      "GT-30 Gen 2 Idler"
+      "GT-30 Gen 2 Idler",
+      "Single Hitch Carrier – Carrier Single Base",
+      "Dual Hitch Carrier – Carrier Dual Base"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/belt-cover-asm-ss/",
@@ -5763,7 +6330,9 @@
       "https://www.stingerequipment.com/schematics/cutter-belt-asm-ss/",
       "https://www.stingerequipment.com/schematics/engine-asm-4/",
       "https://www.stingerequipment.com/schematics/seed-gate-asm-ss/",
-      "https://www.stingerequipment.com/schematics/idler/"
+      "https://www.stingerequipment.com/schematics/idler/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
     ]
   },
   {
@@ -5993,11 +6562,13 @@
     "part": "30-0261",
     "titles": [
       "Drive ASM – Dual-Aer 2475 – Gen 2",
-      "Frame ASM – EZAER-19"
+      "Frame ASM – EZAER-19",
+      "Hitch Carrier – Carrier Ramp"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/drive-asm-dual-aer-2475-gen-2/",
-      "https://www.stingerequipment.com/schematics/frame-asm/"
+      "https://www.stingerequipment.com/schematics/frame-asm/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
     ]
   },
   {
@@ -6198,7 +6769,12 @@
       "Engine ASM – QA3600 – Gen 1",
       "FX850 Engine – QA3600 – Gen 3",
       "Quad Aer 3000 – Gen 2 – Control Tower",
-      "Engine ASM – QA3600 – Gen 2"
+      "Engine ASM – QA3600 – Gen 2",
+      "Seed Chute ASMB – Seed Box 30",
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Chute ASM – Seed Box 36 – Gen 2",
+      "Hitch Carrier – Carrier Ramp",
+      "Sulky Parts – Stinger Equipment"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/aux-belt-qa3600-gen-2/",
@@ -6219,7 +6795,12 @@
       "https://www.stingerequipment.com/schematics/engine-asm-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/fx850-engine/",
       "https://www.stingerequipment.com/schematics/control-tower-qa3000-gen-2/",
-      "https://www.stingerequipment.com/schematics/engine-asm-qa3600-gen-2/"
+      "https://www.stingerequipment.com/schematics/engine-asm-qa3600-gen-2/",
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/",
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -6548,7 +7129,19 @@
       "Drive ASM – Dual-Aer 2475 – Gen 2",
       "FX850 Engine – QA3600 – Gen 3",
       "GT-30 – Gen 1 – Control Tower",
-      "Quad Aer 3000 – Gen 2 – Drive Belt"
+      "Quad Aer 3000 – Gen 2 – Drive Belt",
+      "Hitch Carrier – Carrier Ramp",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Control ASMB – Seed Box 30",
+      "Chute ASM – Seed Box 36 – Gen 2",
+      "Sulky Parts – Stinger Equipment",
+      "Controller ASM – Seed Box 36 – Gen 1",
+      "Hitch Carrier – Carrier Bumper",
+      "Seed Chute ASMB – Seed Box 30",
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Controller ASM – Seed Box 36 – Gen 2",
+      "Mixer ASM – Seed Box 36 – Gen 2"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/brake-arm/",
@@ -6618,7 +7211,19 @@
       "https://www.stingerequipment.com/schematics/drive-asm-dual-aer-2475-gen-2/",
       "https://www.stingerequipment.com/schematics/fx850-engine/",
       "https://www.stingerequipment.com/schematics/control-tower/",
-      "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen2/"
+      "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen2/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/sulky-parts/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/carrier-bumper/",
+      "https://www.stingerequipment.com/schematics/seed-chute-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -6658,7 +7263,9 @@
       "Tine Drive Right Side – QA3600 – Gen 1",
       "Rear Wheel – QA3600 – Gen 2",
       "Tine Drive Left Side – QA3600 – Gen 2",
-      "Drive ASM – EZAER-19"
+      "Drive ASM – EZAER-19",
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/rear-wheel-qa3600-gen-1/",
@@ -6680,7 +7287,9 @@
       "https://www.stingerequipment.com/schematics/tine-drive-right-side-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/rear-wheel-qa3600-gen-2/",
       "https://www.stingerequipment.com/schematics/tine-drive-left-side-qa3600-gen-2/",
-      "https://www.stingerequipment.com/schematics/drive-asm/"
+      "https://www.stingerequipment.com/schematics/drive-asm/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
     ]
   },
   {
@@ -6730,10 +7339,12 @@
   {
     "part": "30-0461",
     "titles": [
-      "Engine – Go Barrow"
+      "Engine – Go Barrow",
+      "Hitch Carrier – Carrier Ramp"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/engine-go-barrow/"
+      "https://www.stingerequipment.com/schematics/engine-go-barrow/",
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
     ]
   },
   {
@@ -6780,7 +7391,9 @@
       "Quad Aer 3000 – Gen 3 – Drive Belt",
       "Drive Belt – QA3600 – Gen 1",
       "Quad Aer 3000 – Gen 2 – Drive Belt",
-      "Quad Aer 3000 – Gen 1 – Drive Belt"
+      "Quad Aer 3000 – Gen 1 – Drive Belt",
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/drive-belt/",
@@ -6789,7 +7402,9 @@
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-3/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen2/",
-      "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-1/"
+      "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-1/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
     ]
   },
   {
@@ -7001,7 +7616,8 @@
       "Right Hydraulic Side – QA3600 – Gen 3",
       "Hydraulic Tank Low Pressure – QA3600 – Gen 3",
       "Hydraulic Tank – GT-30 – Gen 1",
-      "GT-30 Gen 2 Hydraulic Tank"
+      "GT-30 Gen 2 Hydraulic Tank",
+      "Sulky Parts – Stinger Equipment"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/drive-asm-dual-aer-2475-gen-2/",
@@ -7012,7 +7628,8 @@
       "https://www.stingerequipment.com/schematics/right-hydraulic-side/",
       "https://www.stingerequipment.com/schematics/hydraulic-tank-low-pressure/",
       "https://www.stingerequipment.com/schematics/hydraulic-tank-gt-30-gen1/",
-      "https://www.stingerequipment.com/schematics/hydraulic-tank-2/"
+      "https://www.stingerequipment.com/schematics/hydraulic-tank-2/",
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -7024,7 +7641,10 @@
       "Wheels – EZAER-19",
       "Cutter Belt ASM – Super Seeder",
       "Belt Cover ASM – Super Seeder",
-      "Lift Linkage – EZAER-19"
+      "Lift Linkage – EZAER-19",
+      "Chute ASM – Seed Box 36 – Gen 2",
+      "Chute ASM – Seed Box 36 – Gen 1",
+      "Sulky Parts – Stinger Equipment"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/tension-arm-asm-ss/",
@@ -7033,7 +7653,10 @@
       "https://www.stingerequipment.com/schematics/wheels/",
       "https://www.stingerequipment.com/schematics/cutter-belt-asm-ss/",
       "https://www.stingerequipment.com/schematics/belt-cover-asm-ss/",
-      "https://www.stingerequipment.com/schematics/lift-linkage/"
+      "https://www.stingerequipment.com/schematics/lift-linkage/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/chute-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -7115,7 +7738,9 @@
       "Tine Drive ASM – Dual-Aer 2475 – Gen 2",
       "Quad Aer 3000 – Gen 1 – Parking Brake",
       "Parking Brake ASM – QA3600 – Gen 2",
-      "Parking Brake ASM – QA3600 – Gen 1"
+      "Parking Brake ASM – QA3600 – Gen 1",
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/parking-brake/",
@@ -7132,7 +7757,9 @@
       "https://www.stingerequipment.com/schematics/tine-drive-asm-dual-aer-2475-gen-2/",
       "https://www.stingerequipment.com/schematics/parking-brake-qa3000-gen-1/",
       "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-2/",
-      "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-1/"
+      "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-1/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
     ]
   },
   {
@@ -7149,10 +7776,16 @@
   {
     "part": "30-0943",
     "titles": [
-      "Handle 2 – Super Seeder"
+      "Handle 2 – Super Seeder",
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/handle-2-ss/"
+      "https://www.stingerequipment.com/schematics/handle-2-ss/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
     ]
   },
   {
@@ -7178,6 +7811,15 @@
       "https://www.stingerequipment.com/schematics/fx850-engine/",
       "https://www.stingerequipment.com/schematics/engine-asm-qa3600-gen-2/",
       "https://www.stingerequipment.com/schematics/engine-asm-gt-30-gen1/"
+    ]
+  },
+  {
+    "part": "30-1070",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -7519,10 +8161,14 @@
   {
     "part": "30-1638",
     "titles": [
-      "Trail ARM ASM – QA3600 – Gen 1"
+      "Trail ARM ASM – QA3600 – Gen 1",
+      "Single Hitch Carrier – Carrier Single Base",
+      "Dual Hitch Carrier – Carrier Dual Base"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/trail-arm-asm-2/"
+      "https://www.stingerequipment.com/schematics/trail-arm-asm-2/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
     ]
   },
   {
@@ -7812,8 +8458,7 @@
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-1/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-3/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3600-gen-1/"
-    ],
-    "alias": "30-1891"
+    ]
   },
   {
     "part": "30-1891",
@@ -7963,7 +8608,10 @@
       "Control Panel – QA3600 – Gen 2",
       "Control Panel – QA3600 – Gen 3",
       "Control Panel – QA3600 – Gen 1",
-      "Control Panel – GT-30 – Gen 1"
+      "Control Panel – GT-30 – Gen 1",
+      "Control ASMB – Seed Box 30",
+      "Controller ASM – Seed Box 36 – Gen 2",
+      "Controller ASM – Seed Box 36 – Gen 1"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/control-panel-qa3000-gen3/",
@@ -7974,7 +8622,10 @@
       "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-2/",
       "https://www.stingerequipment.com/schematics/control-panel/",
       "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-1/",
-      "https://www.stingerequipment.com/schematics/control-panel-gt-30-gen-1/"
+      "https://www.stingerequipment.com/schematics/control-panel-gt-30-gen-1/",
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/"
     ]
   },
   {
@@ -7988,7 +8639,10 @@
       "Quad Aer 3000 – Gen 4 – Control Panel",
       "GT-30 Gen 2 Control Panel",
       "Quad Aer 3000 – Gen 1 – Control Panel",
-      "Control Panel – QA3600 – Gen 2"
+      "Control Panel – QA3600 – Gen 2",
+      "Controller ASM – Seed Box 36 – Gen 1",
+      "Controller ASM – Seed Box 36 – Gen 2",
+      "Control ASMB – Seed Box 30"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/control-panel/",
@@ -7999,9 +8653,11 @@
       "https://www.stingerequipment.com/schematics/control-panel-2/",
       "https://www.stingerequipment.com/schematics/control-panel-3/",
       "https://www.stingerequipment.com/schematics/control-panel-qa3000-gen1/",
-      "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-2/"
-    ],
-    "alias": "12784-02013"
+      "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-2/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/"
+    ]
   },
   {
     "part": "30-2275",
@@ -8211,8 +8867,7 @@
       "https://www.stingerequipment.com/schematics/aux-belt/",
       "https://www.stingerequipment.com/schematics/aux-belt-qa3600-gen-2/",
       "https://www.stingerequipment.com/schematics/aux-belt-qa3600-gen-1/"
-    ],
-    "alias": "30-1933"
+    ]
   },
   {
     "part": "30-2633",
@@ -8355,6 +9010,17 @@
     ]
   },
   {
+    "part": "30-2795",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
     "part": "30-2874",
     "titles": [
       "Hydraulics – Gateway Applicator",
@@ -8363,6 +9029,110 @@
     "urls": [
       "https://www.stingerequipment.com/schematics/hydraulics/",
       "https://www.stingerequipment.com/schematics/gateway-handle-asm/"
+    ]
+  },
+  {
+    "part": "30-3047",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 2",
+      "Seed Box ASMB – Seed Box 30",
+      "SeedBox ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "30-3048",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 1",
+      "Seed Box ASMB – Seed Box 30",
+      "SeedBox ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "30-3065",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 1",
+      "Seed Box ASMB – Seed Box 30",
+      "SeedBox ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "30-3067",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "30-3068",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "30-3069",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "30-3070",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 1",
+      "Seed Box ASMB – Seed Box 30",
+      "SeedBox ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "30-3072",
+    "titles": [
+      "SeedBox ASM – Seed Box 36 – Gen 1",
+      "Seed Box ASMB – Seed Box 30",
+      "SeedBox ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/seed-box-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/seedbox-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -8470,8 +9240,7 @@
       "https://www.stingerequipment.com/schematics/trail-arm-asm-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/trail-arm-asm/",
       "https://www.stingerequipment.com/schematics/trail-arm/"
-    ],
-    "alias": "30-0374"
+    ]
   },
   {
     "part": "30-3341",
@@ -8508,10 +9277,27 @@
   {
     "part": "30-3367",
     "titles": [
-      "Handle ASM – EZAER-19"
+      "Handle ASM – EZAER-19",
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/handle-asm/"
+      "https://www.stingerequipment.com/schematics/handle-asm/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+    ]
+  },
+  {
+    "part": "30-3368",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
     ]
   },
   {
@@ -8660,6 +9446,24 @@
       "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/brake-arm/",
       "https://www.stingerequipment.com/schematics/parking-brake-asm-qa3600-gen-2/"
+    ]
+  },
+  {
+    "part": "30-3617",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "30-3619",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
     ]
   },
   {
@@ -8943,12 +9747,14 @@
     "titles": [
       "Hydraulics – Gateway Applicator",
       "Hydraulics – Gateway Applicator",
-      "Engine ASM – Gateway Applicator"
+      "Engine ASM – Gateway Applicator",
+      "Hitch Carrier – Carrier Bumper"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/gateway-hydrualis/",
       "https://www.stingerequipment.com/schematics/hydraulics/",
-      "https://www.stingerequipment.com/schematics/engine-asm-2/"
+      "https://www.stingerequipment.com/schematics/engine-asm-2/",
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
     ]
   },
   {
@@ -9105,7 +9911,9 @@
       "Hydraulics – Gateway Applicator",
       "Bake ASM – Gateway Applicator",
       "Tank ASM – Gateway Applicator",
-      "Pivot Joint – Gateway Applicator"
+      "Pivot Joint – Gateway Applicator",
+      "Single Hitch Carrier – Carrier Single Base",
+      "Dual Hitch Carrier – Carrier Dual Base"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/gateway-handle-asm/",
@@ -9128,7 +9936,9 @@
       "https://www.stingerequipment.com/schematics/gateway-hydrualis/",
       "https://www.stingerequipment.com/schematics/gateway-brake-asm/",
       "https://www.stingerequipment.com/schematics/gateway-tank-asm/",
-      "https://www.stingerequipment.com/schematics/pivot-joint/"
+      "https://www.stingerequipment.com/schematics/pivot-joint/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
     ]
   },
   {
@@ -9443,6 +10253,24 @@
     ]
   },
   {
+    "part": "30-4683",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
+    "part": "30-4701",
+    "titles": [
+      "Hitch Carrier – Carrier Ramp"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-ramp/"
+    ]
+  },
+  {
     "part": "30-4765",
     "titles": [
       "Drive Belt – GT-30 – Gen 1",
@@ -9502,6 +10330,46 @@
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/hydraulics/"
+    ]
+  },
+  {
+    "part": "30-5188",
+    "titles": [
+      "Hitch Carrier – Carrier Bumper"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
+    ]
+  },
+  {
+    "part": "30-5189",
+    "titles": [
+      "Single Hitch Carrier – Carrier Single Base",
+      "Dual Hitch Carrier – Carrier Dual Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-single-base/",
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/"
+    ]
+  },
+  {
+    "part": "30-5190",
+    "titles": [
+      "Dual Hitch Carrier – Carrier Dual Base",
+      "Single Hitch Carrier – Carrier Single Base"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-dual-base/",
+      "https://www.stingerequipment.com/schematics/carrier-single-base/"
+    ]
+  },
+  {
+    "part": "30-5198",
+    "titles": [
+      "Hitch Carrier – Carrier Bumper"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
     ]
   },
   {
@@ -10381,6 +11249,24 @@
       "https://www.stingerequipment.com/schematics/engine-asm-qa3600-gen-2/",
       "https://www.stingerequipment.com/schematics/fx850-engine/",
       "https://www.stingerequipment.com/schematics/gateway-spray-asm/"
+    ]
+  },
+  {
+    "part": "40-1024",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
+    "part": "40-1036",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -12911,6 +13797,32 @@
     ]
   },
   {
+    "part": "40-2792",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "40-2793",
+    "titles": [
+      "Mixer ASM – Seed Box 36 – Gen 1",
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/"
+    ]
+  },
+  {
     "part": "40-2803",
     "titles": [
       "Engine ASM – Gateway Applicator"
@@ -14309,6 +15221,17 @@
     ]
   },
   {
+    "part": "50-1710",
+    "titles": [
+      "Controller ASM – Seed Box 36 – Gen 2",
+      "Controller ASM – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/"
+    ]
+  },
+  {
     "part": "50-1770",
     "titles": [
       "Quad Aer 3000 – Gen 2 – Engine ASM",
@@ -14555,6 +15478,15 @@
     ]
   },
   {
+    "part": "50-3432",
+    "titles": [
+      "Control ASMB – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/"
+    ]
+  },
+  {
     "part": "50-3898",
     "titles": [
       "Main Harness – Gateway Applicator",
@@ -14695,6 +15627,33 @@
     ]
   },
   {
+    "part": "50-5072",
+    "titles": [
+      "Hitch Carrier – Carrier Bumper"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
+    ]
+  },
+  {
+    "part": "50-5187",
+    "titles": [
+      "Hitch Carrier – Carrier Bumper"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
+    ]
+  },
+  {
+    "part": "50-5196",
+    "titles": [
+      "Hitch Carrier – Carrier Bumper"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/carrier-bumper/"
+    ]
+  },
+  {
     "part": "50-5206",
     "titles": [
       "Spray ASM – Gateway Applicator"
@@ -14819,7 +15778,9 @@
       "Decal 2 – Super Seeder",
       "Quad Aer 3000 – Gen 3 – Decal 1",
       "Decal Left – GT-30 – Gen 1",
-      "Quad Aer 3000 – Gen 1 – Decal 1"
+      "Quad Aer 3000 – Gen 1 – Decal 1",
+      "Decal 1 – Seed Box 36 – Gen 2",
+      "Decals 1 – Seed Box 36 – Gen 1"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/decal-left/",
@@ -14834,7 +15795,9 @@
       "https://www.stingerequipment.com/schematics/decal-2-ss/",
       "https://www.stingerequipment.com/schematics/decal-1-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/decal-left-gt-30-gen-1/",
-      "https://www.stingerequipment.com/schematics/decal-1-qa3000-gen1/"
+      "https://www.stingerequipment.com/schematics/decal-1-qa3000-gen1/",
+      "https://www.stingerequipment.com/schematics/decal-1-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/decals-1-seed-box-36-gen-1/"
     ]
   },
   {
@@ -14955,7 +15918,9 @@
       "Quad Aer 3000 – Gen 3 – Decal 2",
       "GT-30 Gen 2 Decal Rear",
       "Quad Aer 3000 – Gen 1 – Decal 2",
-      "Decal Rear – GT-30 – Gen 1"
+      "Decal Rear – GT-30 – Gen 1",
+      "Decals 1 – Seed Box 36 – Gen 1",
+      "Decal 1 – Seed Box 36 – Gen 2"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/decal-2/",
@@ -14966,7 +15931,27 @@
       "https://www.stingerequipment.com/schematics/decal-2-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/decal-rear/",
       "https://www.stingerequipment.com/schematics/decal-2-qa3000-gen-1/",
-      "https://www.stingerequipment.com/schematics/decal-rear-gt-30-gen-1/"
+      "https://www.stingerequipment.com/schematics/decal-rear-gt-30-gen-1/",
+      "https://www.stingerequipment.com/schematics/decals-1-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/decal-1-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "60-0031",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
+    ]
+  },
+  {
+    "part": "60-0032",
+    "titles": [
+      "Sulky Parts – Stinger Equipment"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/sulky-parts/"
     ]
   },
   {
@@ -14991,11 +15976,15 @@
     "part": "60-0042",
     "titles": [
       "Decal 1 – Super Seeder",
-      "Decal 2 – Super Seeder"
+      "Decal 2 – Super Seeder",
+      "Decal 1 – Seed Box 36 – Gen 2",
+      "Decals 1 – Seed Box 36 – Gen 1"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/decal-1-ss/",
-      "https://www.stingerequipment.com/schematics/decal-2-ss/"
+      "https://www.stingerequipment.com/schematics/decal-2-ss/",
+      "https://www.stingerequipment.com/schematics/decal-1-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/decals-1-seed-box-36-gen-1/"
     ]
   },
   {
@@ -15165,10 +16154,14 @@
   {
     "part": "60-0238S",
     "titles": [
-      "Decal 1 – Super Seeder"
+      "Decal 1 – Super Seeder",
+      "Decal 1 – Seed Box 36 – Gen 2",
+      "Decals 1 – Seed Box 36 – Gen 1"
     ],
     "urls": [
-      "https://www.stingerequipment.com/schematics/decal-1-ss/"
+      "https://www.stingerequipment.com/schematics/decal-1-ss/",
+      "https://www.stingerequipment.com/schematics/decal-1-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/decals-1-seed-box-36-gen-1/"
     ]
   },
   {
@@ -15322,6 +16315,48 @@
       "https://www.stingerequipment.com/schematics/decal-left/",
       "https://www.stingerequipment.com/schematics/decal-right/",
       "https://www.stingerequipment.com/schematics/decal-right-gt-30-gen-1/"
+    ]
+  },
+  {
+    "part": "60-2100",
+    "titles": [
+      "Decal 1 – Seed Box 30"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/decal-1-seed-box-30/"
+    ]
+  },
+  {
+    "part": "60-2101",
+    "titles": [
+      "Decal 2 – Seed Box 36 – Gen 2",
+      "Decals 2 – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/decal-2-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/decals-2-seed-box-36-gen-1/"
+    ]
+  },
+  {
+    "part": "60-2102",
+    "titles": [
+      "Decals 2 – Seed Box 36 – Gen 1",
+      "Decal 2 – Seed Box 36 – Gen 2"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/decals-2-seed-box-36-gen-1/",
+      "https://www.stingerequipment.com/schematics/decal-2-seed-box-36-gen-2/"
+    ]
+  },
+  {
+    "part": "60-2103",
+    "titles": [
+      "Decal 1 – Seed Box 36 – Gen 2",
+      "Decals 1 – Seed Box 36 – Gen 1"
+    ],
+    "urls": [
+      "https://www.stingerequipment.com/schematics/decal-1-seed-box-36-gen-2/",
+      "https://www.stingerequipment.com/schematics/decals-1-seed-box-36-gen-1/"
     ]
   },
   {
