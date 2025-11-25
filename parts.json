@@ -5838,7 +5838,8 @@
       "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-2/",
       "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/",
       "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
-    ]
+    ],
+    "alias": "30-3341"
   },
   {
     "part": "30-0071",
@@ -6030,7 +6031,8 @@
       "https://www.stingerequipment.com/schematics/tine-drive-left-side-qa3600-gen-1/",
       "https://www.stingerequipment.com/schematics/tine-drive-right-side/",
       "https://www.stingerequipment.com/schematics/tine-drive-left-side/"
-    ]
+    ],
+    "alias": "30-1652"
   },
   {
     "part": "30-0110",
@@ -8458,7 +8460,8 @@
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-1/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-3/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3600-gen-1/"
-    ]
+    ],
+    "alias": "30-1891"
   },
   {
     "part": "30-1891",
@@ -8657,7 +8660,8 @@
       "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-1/",
       "https://www.stingerequipment.com/schematics/controller-asm-seed-box-36-gen-2/",
       "https://www.stingerequipment.com/schematics/control-asmb-seed-box-30/"
-    ]
+    ],
+    "alias": "12784-02013"
   },
   {
     "part": "30-2275",
@@ -8784,7 +8788,8 @@
       "https://www.stingerequipment.com/schematics/drive-belt/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen-1/",
       "https://www.stingerequipment.com/schematics/drive-belt-qa3000-gen2/"
-    ]
+    ],
+    "alias": "30-0184"
   },
   {
     "part": "30-2460",
@@ -8867,7 +8872,8 @@
       "https://www.stingerequipment.com/schematics/aux-belt/",
       "https://www.stingerequipment.com/schematics/aux-belt-qa3600-gen-2/",
       "https://www.stingerequipment.com/schematics/aux-belt-qa3600-gen-1/"
-    ]
+    ],
+    "alias": "30-1933"
   },
   {
     "part": "30-2633",
@@ -9240,7 +9246,8 @@
       "https://www.stingerequipment.com/schematics/trail-arm-asm-qa3000-gen3/",
       "https://www.stingerequipment.com/schematics/trail-arm-asm/",
       "https://www.stingerequipment.com/schematics/trail-arm/"
-    ]
+    ],
+    "alias": "30-0374"
   },
   {
     "part": "30-3341",
