@@ -308,7 +308,12 @@
 
       parts.forEach(p => {
         tableHTML += `<tr>`;
-        tableHTML += `<td><span class="part-number">${escapeHtml(p.part)}</span></td>`;
+        tableHTML += `<td>`;
+        tableHTML += `<span class="part-number">${escapeHtml(p.part)}</span>`;
+        if (p.alias) {
+          tableHTML += `<div style="font-size: 0.8rem; color: #666; margin-top: 0.25rem;">Alias: ${escapeHtml(p.alias)}</div>`;
+        }
+        tableHTML += `</td>`;
         tableHTML += `<td>`;
         
         if (p.titles && p.titles.length > 0) {
@@ -343,7 +348,7 @@
       }
       const filtered = allParts.filter(p => 
         p.part.toLowerCase().includes(term) ||
-        (p.titles && p.titles.some(t => t.toLowerCase().includes(term)))
+        (p.alias && p.alias.toLowerCase().includes(term))
       );
       renderResults(filtered);
     });
