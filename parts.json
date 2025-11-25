@@ -1754,15 +1754,6 @@
     ]
   },
   {
-    "part": "10-24-flange-nylock-nut",
-    "titles": [
-      "Mixer ASM – Seed Box 36 – Gen 1"
-    ],
-    "urls": [
-      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
-    ]
-  },
-  {
     "part": "10-2403",
     "titles": [
       "GT-30 – Gen 1 – Control Handles",
@@ -5949,7 +5940,8 @@
       "Quad Aer 3000 – Gen 1 – Control Panel",
       "Controls – Go Barrow",
       "Control Panel – QA3600 – Gen 2",
-      "Mixer ASMB – Seed Box 30"
+      "Mixer ASMB – Seed Box 30",
+      "Mixer ASM – Seed Box 36 – Gen 1"
     ],
     "urls": [
       "https://www.stingerequipment.com/schematics/handle-asm-dual-aer-2475-gen-2/",
@@ -5964,7 +5956,8 @@
       "https://www.stingerequipment.com/schematics/control-panel-qa3000-gen1/",
       "https://www.stingerequipment.com/schematics/controls-go-barrow/",
       "https://www.stingerequipment.com/schematics/control-panel-qa3600-gen-2/",
-      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/"
+      "https://www.stingerequipment.com/schematics/mixer-asmb-seed-box-30/",
+      "https://www.stingerequipment.com/schematics/mixer-asm-seed-box-36-gen-1/"
     ]
   },
   {
