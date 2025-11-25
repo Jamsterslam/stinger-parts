@@ -3,184 +3,260 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Stinger Parts Search</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>Search</text></svg>">
+  <title>Parts Catalog - Stinger Equipment</title>
   <style>
-    :root {
-      --bg: #f8f9fc;
-      --text: #1a1a2e;
-      --accent: #0066cc;
-      --card: #ffffff;
-      --border: #e0e6ed;
-      --shadow: 0 4px 12px rgba(0,0,0,0.05);
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0f0f1a;
-        --text: #e0e0ff;
-        --accent: #4d9fff;
-        --card: #1a1a2e;
-        --border: #33334d;
-      }
-    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      padding: 2rem;
-      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.5;
     }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background: var(--card);
-      border-radius: 16px;
-      padding: 2rem;
-      box-shadow: var(--shadow);
-      border: 1px solid var(--border);
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    h1 {
-      font-size: 2rem;
-      color: var(--accent);
-      margin-bottom: 0.5rem;
-    }
-    .subtitle {
-      color: #777;
-      font-size: 0.95rem;
-    }
-    .search-box {
-      position: relative;
-      margin-bottom: 1.5rem;
-    }
-    #search {
-      width: 100%;
-      padding: 1rem 1rem 1rem 3rem;
-      font-size: 1.1rem;
-      border: 2px solid var(--border);
-      border-radius: 12px;
-      background: var(--bg);
-      color: var(--text);
-      transition: all 0.3s;
+    
+    /* BLUE THEME (original) - uncomment to use
+    .header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      color: white;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     #search:focus {
       outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.15);
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
     }
-    .search-icon {
-      position: absolute;
-      left: 1rem;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #aaa;
-      font-size: 1.2rem;
+    .results-info {
+      background: #f3f4f6;
+      padding: 0.75rem 1rem;
+      border-left: 3px solid #3b82f6;
+      margin-bottom: 1rem;
+      font-size: 0.875rem;
+      color: #4b5563;
+      font-weight: 500;
     }
-    #results {
-      max-height: 60vh;
-      overflow-y: auto;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: var(--bg);
-      display: none;
-    }
-    .result-item {
-      padding: 1rem;
-      border-bottom: 1px solid var(--border);
-      transition: background 0.2s;
-    }
-    .result-item:last-child {
-      border-bottom: none;
-    }
-    .part-header {
-      margin-bottom: 0.5rem;
+    .parts-table thead {
+      background: linear-gradient(to bottom, #1e40af, #1e3a8a);
+      color: white;
     }
     .part-number {
+      font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Courier New', monospace;
       font-weight: 600;
-      color: var(--accent);
-      font-family: 'Courier New', monospace;
-      font-size: 1rem;
+      color: #1e40af;
+      font-size: 0.95rem;
+      background: #eff6ff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
     }
-    .part-alias {
-      color: #888;
-      font-size: 0.85rem;
-      font-family: 'Courier New', monospace;
-      margin-left: 0.5rem;
-    }
-    .titles-list {
-      margin-left: 1.5rem;
-      margin-top: 0.5rem;
-    }
-    .title-link {
-      display: block;
-      padding: 0.4rem 0.6rem;
-      color: var(--text);
+    .schematic-link {
+      color: #2563eb;
       text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    .schematic-link:hover {
+      color: #1d4ed8;
+      text-decoration: underline;
+    }
+    .parts-table tbody tr:hover {
+      background: #eff6ff;
+      transition: background-color 0.15s;
+    }
+    */
+    
+    /* BLACK & GOLD THEME (current - Stinger branding) */
+    .header {
+      background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+      color: white;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      border-bottom: 2px solid #d4a017;
+    }
+    .header h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      letter-spacing: 0.5px;
+    }
+    .header .subtitle {
+      font-size: 0.95rem;
+      opacity: 0.95;
+      font-weight: 300;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+    .search-section {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .search-label {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      display: block;
+      font-size: 0.875rem;
+      color: #374151;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    #search {
+      width: 100%;
+      max-width: 500px;
+      padding: 0.625rem 0.875rem;
+      font-size: 1rem;
+      border: 2px solid #e5e7eb;
       border-radius: 6px;
+      font-family: inherit;
       transition: all 0.2s;
+    }
+    #search:focus {
+      outline: none;
+      border-color: #d4a017;
+      box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.1);
+    }
+    .results-info {
+      background: #f3f4f6;
+      padding: 0.75rem 1rem;
+      border-left: 3px solid #d4a017;
+      margin-bottom: 1rem;
+      font-size: 0.875rem;
+      color: #4b5563;
+      font-weight: 500;
+    }
+    .parts-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .parts-table thead {
+      background: linear-gradient(to bottom, #2d2d2d, #1a1a1a);
+      color: white;
+    }
+    .parts-table th {
+      padding: 1rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .parts-table td {
+      padding: 1rem;
+      border-top: 1px solid #e5e7eb;
+      vertical-align: top;
       font-size: 0.9rem;
-      margin: 0.2rem 0;
     }
-    .title-link:hover {
-      background: rgba(0, 102, 204, 0.1);
-      color: var(--accent);
-      padding-left: 1rem;
+    .parts-table tbody tr:nth-child(even) {
+      background: #f9fafb;
     }
-    .title-link::before {
-      content: "→ ";
+    .parts-table tbody tr:hover {
+      background: #f5f5f5;
+      transition: background-color 0.15s;
+    }
+    .part-number {
+      font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Courier New', monospace;
+      font-weight: 600;
+      color: #1a1a1a;
+      font-size: 0.95rem;
+      background: #f9f3e3;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+      border: 1px solid #e8dcc0;
+    }
+    .schematic-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .schematic-list li {
+      margin-bottom: 0.4rem;
+    }
+    .schematic-link {
+      color: #2d2d2d;
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    .schematic-link::after {
+      content: "↗";
+      font-size: 0.75rem;
       opacity: 0.5;
-      margin-right: 0.3rem;
+    }
+    .schematic-link:hover {
+      color: #c49102;
+      text-decoration: underline;
     }
     .no-results {
       padding: 2rem;
       text-align: center;
-      color: #999;
-      font-style: italic;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 2rem;
-      color: #888;
-      font-size: 0.85rem;
-    }
-    .footer a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    .footer a:hover {
-      text-decoration: underline;
+      color: #666;
+      border: 1px solid #ddd;
+      background: #f9f9f9;
     }
     .loading {
       text-align: center;
       padding: 2rem;
-      color: #777;
+      color: #666;
     }
-    @media (max-width: 600px) {
-      body { padding: 1rem; }
-      .container { padding: 1.5rem; }
-      h1 { font-size: 1.6rem; }
+    @media (max-width: 768px) {
+      .header {
+        padding: 0.75rem 1rem;
+      }
+      .header h1 {
+        font-size: 1.2rem;
+      }
+      .container {
+        padding: 1rem;
+      }
+      #search {
+        max-width: 100%;
+        font-size: 16px;
+      }
+      .parts-table {
+        font-size: 0.85rem;
+      }
+      .parts-table th,
+      .parts-table td {
+        padding: 0.5rem;
+      }
+      .part-number {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Stinger Parts Search</h1>
-    </header>
+  <div class="header">
+    <h1>PARTS CATALOG</h1>
+    <div class="subtitle">Stinger Equipment Corporation</div>
+  </div>
 
-    <div class="search-box">
-      <span class="search-icon"></span>
-      <input type="text" id="search" autocomplete="off" />
+  <div class="container">
+    <div class="search-section">
+      <label class="search-label">Part Number Search:</label>
+      <input type="text" id="search" autocomplete="off" placeholder="Enter part number..." />
     </div>
 
+    <div id="results-info" class="results-info" style="display:none;"></div>
     <div id="results"></div>
-    <div id="loading" class="loading">Loading parts database...</div>
-    
+    <div id="loading" class="loading">Loading parts catalog...</div>
   </div>
 
   <script>
@@ -190,7 +266,7 @@
     const searchInput = document.getElementById('search');
 
     // Load parts.json
-    fetch('parts.json')
+    fetch('parts_combined.json')
       .then(r => {
         if (!r.ok) throw new Error('Failed to load parts.json');
         return r.json();
@@ -207,39 +283,56 @@
       });
 
     function renderResults(parts) {
+      const resultsInfo = document.getElementById('results-info');
       resultsDiv.innerHTML = '';
+      
       if (parts.length === 0) {
-        resultsDiv.innerHTML = '<div class="no-results">No parts found.</div>';
-        resultsDiv.style.display = 'block';
+        resultsDiv.innerHTML = '<div class="no-results">No matching parts found.</div>';
+        resultsInfo.style.display = 'none';
         return;
       }
 
-      const fragment = document.createDocumentFragment();
+      resultsInfo.textContent = `Displaying ${parts.length} part${parts.length !== 1 ? 's' : ''}`;
+      resultsInfo.style.display = 'block';
+
+      let tableHTML = `
+        <table class="parts-table">
+          <thead>
+            <tr>
+              <th width="20%">Part Number</th>
+              <th width="80%">Schematic References</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+
       parts.forEach(p => {
-        const div = document.createElement('div');
-        div.className = 'result-item';
+        tableHTML += `<tr>`;
+        tableHTML += `<td><span class="part-number">${escapeHtml(p.part)}</span></td>`;
+        tableHTML += `<td>`;
         
-        // Create header with part number and alias
-        let headerHTML = `<div class="part-header">
-          <span class="part-number">${p.part}</span>`;
-        
-        if (p.alias) {
-          headerHTML += `<span class="part-alias">(alias: ${p.alias})</span>`;
+        if (p.titles && p.titles.length > 0) {
+          tableHTML += '<ul class="schematic-list">';
+          p.titles.forEach((title, index) => {
+            tableHTML += `<li><a href="${escapeHtml(p.urls[index])}" target="_blank" class="schematic-link">${escapeHtml(title)}</a></li>`;
+          });
+          tableHTML += '</ul>';
+        } else {
+          tableHTML += '<em>No schematics available</em>';
         }
-        headerHTML += `</div>`;
         
-        // Create titles list with clickable links
-        let titlesHTML = '<div class="titles-list">';
-        p.titles.forEach((title, index) => {
-          titlesHTML += `<a href="${p.urls[index]}" target="_blank" class="title-link">${title}</a>`;
-        });
-        titlesHTML += '</div>';
-        
-        div.innerHTML = headerHTML + titlesHTML;
-        fragment.appendChild(div);
+        tableHTML += `</td>`;
+        tableHTML += `</tr>`;
       });
-      resultsDiv.appendChild(fragment);
-      resultsDiv.style.display = 'block';
+
+      tableHTML += `</tbody></table>`;
+      resultsDiv.innerHTML = tableHTML;
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
     }
 
     searchInput.addEventListener('input', () => {
@@ -250,16 +343,9 @@
       }
       const filtered = allParts.filter(p => 
         p.part.toLowerCase().includes(term) ||
-        (p.alias && p.alias.toLowerCase().includes(term))
+        (p.titles && p.titles.some(t => t.toLowerCase().includes(term)))
       );
       renderResults(filtered);
-    });
-
-    // Hide results when clicking outside
-    document.addEventListener('click', e => {
-      if (!searchInput.contains(e.target) && !resultsDiv.contains(e.target)) {
-        resultsDiv.style.display = 'none';
-      }
     });
   </script>
 </body>
