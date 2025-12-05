@@ -177,6 +177,16 @@
       display: inline-block;
       border: 1px solid #e8dcc0;
     }
+    .part-info-cell {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .part-divider {
+      width: 1px;
+      height: 24px;
+      background: #e5e7eb;
+    }
     .schematic-list {
       list-style: none;
       padding: 0;
@@ -202,6 +212,20 @@
     .schematic-link:hover {
       color: #c49102;
       text-decoration: underline;
+    }
+    .location-badge {
+      font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Courier New', monospace;
+      font-weight: 600;
+      color: #1a1a1a;
+      background: linear-gradient(135deg, #f9d97180 0%, #fbbf2480 100%);
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.85rem;
+      letter-spacing: 0.3px;
+      border: 1.5px solid #d4a017;
+      white-space: nowrap;
     }
     .no-results {
       padding: 2rem;
@@ -299,8 +323,8 @@
         <table class="parts-table">
           <thead>
             <tr>
-              <th width="20%">Part Number</th>
-              <th width="80%">Schematic References</th>
+              <th width="25%">Part Information</th>
+              <th width="75%">Schematic References</th>
             </tr>
           </thead>
           <tbody>
@@ -309,9 +333,15 @@
       parts.forEach(p => {
         tableHTML += `<tr>`;
         tableHTML += `<td>`;
+        tableHTML += `<div class="part-info-cell">`;
         tableHTML += `<span class="part-number">${escapeHtml(p.part)}</span>`;
+        if (p.location) {
+          tableHTML += `<div class="part-divider"></div>`;
+          tableHTML += `<span class="location-badge">${escapeHtml(p.location)}</span>`;
+        }
+        tableHTML += `</div>`;
         if (p.alias) {
-          tableHTML += `<div style="font-size: 0.8rem; color: #666; margin-top: 0.25rem;">Alias: ${escapeHtml(p.alias)}</div>`;
+          tableHTML += `<div style="font-size: 0.8rem; color: #666; margin-top: 0.35rem;">Alias: ${escapeHtml(p.alias)}</div>`;
         }
         tableHTML += `</td>`;
         tableHTML += `<td>`;
