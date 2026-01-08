@@ -275,7 +275,7 @@
   <div class="container">
     <div class="search-section">
       <label class="search-label">Part Number Search:</label>
-      <input type="text" id="search" autocomplete="off" placeholder="Enter part number..." />
+      <input type="text" id="search" autocomplete="off" placeholder="Search by part number or description..." />
     </div>
 
     <div id="results-info" class="results-info" style="display:none;"></div>
@@ -323,8 +323,9 @@
         <table class="parts-table">
           <thead>
             <tr>
-              <th width="25%">Part Information</th>
-              <th width="75%">Schematic References</th>
+              <th width="20%">Part Information</th>
+              <th width="30%">Description</th>
+              <th width="50%">Schematic References</th>
             </tr>
           </thead>
           <tbody>
@@ -343,6 +344,9 @@
         if (p.alias) {
           tableHTML += `<div style="font-size: 0.8rem; color: #666; margin-top: 0.35rem;">Alias: ${escapeHtml(p.alias)}</div>`;
         }
+        tableHTML += `</td>`;
+        tableHTML += `<td>`;
+        tableHTML += p.description ? `<span style="color: #4b5563;">${escapeHtml(p.description)}</span>` : '<em style="color: #9ca3af;">No description</em>';
         tableHTML += `</td>`;
         tableHTML += `<td>`;
         
@@ -370,16 +374,81 @@
       return div.innerHTML;
     }
 
+    // Simple fuzzy matching score (0-1, higher is better)
+    function fuzzyScore(str, pattern) {
+      str = str.toLowerCase();
+      pattern = pattern.toLowerCase();
+      
+      // Exact substring match gets highest score
+      if (str.includes(pattern)) return 1.0;
+      
+      // Check if all pattern characters appear in order
+      let patternIdx = 0;
+      let matches = 0;
+      for (let i = 0; i < str.length && patternIdx < pattern.length; i++) {
+        if (str[i] === pattern[patternIdx]) {
+          matches++;
+          patternIdx++;
+        }
+      }
+      
+      // If not all characters matched, score is 0
+      if (patternIdx < pattern.length) return 0;
+      
+      // Score based on how compact the match is
+      return matches / str.length * 0.7;
+    }
+
+    function searchParts(term) {
+      const results = [];
+      
+      for (const part of allParts) {
+        let maxScore = 0;
+        
+        // Check part number
+        maxScore = Math.max(maxScore, fuzzyScore(part.part, term));
+        
+        // Check alias
+        if (part.alias) {
+          maxScore = Math.max(maxScore, fuzzyScore(part.alias, term));
+        }
+        
+        // Check description - split into words and check each
+        if (part.description) {
+          const words = part.description.split(/\s+/);
+          for (const word of words) {
+            maxScore = Math.max(maxScore, fuzzyScore(word, term));
+          }
+        }
+        
+        // Check schematic titles
+        if (part.titles) {
+          for (const title of part.titles) {
+            const words = title.split(/\s+/);
+            for (const word of words) {
+              maxScore = Math.max(maxScore, fuzzyScore(word, term));
+            }
+          }
+        }
+        
+        // Only include if score is above threshold
+        if (maxScore > 0.3) {
+          results.push({ part, score: maxScore });
+        }
+      }
+      
+      // Sort by score (highest first)
+      results.sort((a, b) => b.score - a.score);
+      return results.map(r => r.part);
+    }
+
     searchInput.addEventListener('input', () => {
       const term = searchInput.value.trim().toLowerCase();
       if (!term) {
         renderResults(allParts);
         return;
       }
-      const filtered = allParts.filter(p => 
-        p.part.toLowerCase().includes(term) ||
-        (p.alias && p.alias.toLowerCase().includes(term))
-      );
+      const filtered = searchParts(term);
       renderResults(filtered);
     });
   </script>
